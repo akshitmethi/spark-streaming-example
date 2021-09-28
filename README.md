@@ -1,0 +1,2 @@
+# spark-streaming-example
+This is a basic spark streaming project where spark will write the  kafka stream data into redis to update leaderboard.  This is an example on how to create a live leaderboard. Further improvements could have been made if we have used mariaDB in place of redis to make support for  time range queries. Redis is used because of its highly efficient in-memory fetch performance.
